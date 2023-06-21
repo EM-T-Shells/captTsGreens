@@ -1,0 +1,81 @@
+body {
+  min-width: 375px;
+  background-color: #d7c7a4;
+}
+
+#nav {
+  background-color: #616548 ;
+}
+
+#img-container {
+  margin: 0 auto;
+}
+
+#img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+#card {
+  background-color: #978763;
+  color: white;
+  font-family: "Comic Sans MS", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.card-text {
+  text-transform: none;
+}
+
+h5 {
+  color: #1c110c
+}
+
+#p-lead {
+  color: rgb(66, 53, 4)
+}
+
+#pill {
+  background-color: #a89c36;
+}
+
+.happy-cows {
+  color: #e23130;
+  font-family: "comic Sans MS", cursive;
+  text-transform: uppercase;
+  letter-spacing:  1px;
+}
+
+.discount {
+  color: rgb(172, 244, 56);
+}
+
+.table-responsive {
+  margin: auto;
+  width: 90%;
+}
+.table-bordered tbody tr {
+  border: 1px solid #dee2e6;
+}
+.table-bordered td.quantity-column {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+.table-leather {
+  background-color: #616548;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media (min-width: 644px) {
+  #img-container {
+    padding: 30px;
+  }
+}
