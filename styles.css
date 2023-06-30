@@ -2,57 +2,52 @@ body {
   min-width: 375px;
   background-color: #d7c7a4;
 }
-
 #nav {
   background-color: #616548 ;
 }
-
-#img-container {
-  margin: 0 auto;
+.hero-img-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#img-container img {
+.hero-img-container img {
   max-width: 100%;
   height: auto;
 }
 
+
+
 #card {
   background-color: #978763;
   color: white;
-  font-family: Avenir, Lato, Roboto, 'Open Sans',  'Helvetica Neue', sans-serif;
+  font-family: Avenir;
   text-transform: uppercase;
   letter-spacing: 2px;
   border: none;
 }
-
 .card-text {
   text-transform: none;
 }
-
 h5 {
   color: #1c110c
 }
-
 #p-lead {
   color: rgb(66, 53, 4)
 }
-
 #pill {
   background-color: #a89c36;
 }
-
 .happy-cows {
   color: #e23130;
-  font-family: avenir, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Avenir;
   text-transform: uppercase;
   font-weight: Bold;
   letter-spacing:  1px;
 }
-
 .discount {
   color: rgb(172, 244, 56);
 }
-
 .table-responsive {
   margin: auto;
   width: 90%;
@@ -68,15 +63,27 @@ h5 {
   background-color: #616548;
   color: #fff;
 }
-
 a {
   text-decoration: none;
   color: white;
 }
 
-
-@media (min-width: 644px) {
+/* @media (min-width: 644px) {
   #img-container {
     padding: 30px;
   }
+} */
+
+@media (min-width: 335px) {
+  .hero-img-container img {
+    width: 85%;
+    height: auto;
+  }
 }
+@media (min-width: 933px) {
+  .hero-img-container img {
+    width: 60%;
+    height: auto;
+  }
+}
+
