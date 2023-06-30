@@ -36,7 +36,7 @@ h5 {
   color: rgb(66, 53, 4)
 }
 #pill {
-  background-color: #a89c36;
+  background-color: #a89d3699;
 }
 .happy-cows {
   color: #e23130;
@@ -68,22 +68,66 @@ a {
   color: white;
 }
 
-/* @media (min-width: 644px) {
-  #img-container {
-    padding: 30px;
-  }
-} */
+.future-card{
+  background-color: brown;
+  margin: 4px;
+}
 
-@media (min-width: 335px) {
+/* Small mobile devices (up to 479px) */
+@media (max-width: 479px) {
   .hero-img-container img {
     width: 85%;
     height: auto;
   }
 }
-@media (min-width: 933px) {
+
+/* media queries */
+
+/* Medium mobile devices (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
   .hero-img-container img {
-    width: 60%;
+    width: 75%;
     height: auto;
   }
 }
 
+/* Large mobile devices (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-img-container img {
+    width: 65%;
+    height: auto;
+  }
+}
+
+/* Tablet devices (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-img-container img {
+    width: 55%;
+    height: auto;
+  }
+}
+
+/* Small desktop screens (1200px to 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-img-container img {
+    width: 45%;
+    height: auto;
+  }
+}
+
+/* Medium-sized desktop screens (1440px to 1679px) */
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .hero-img-container img {
+    width: 35%;
+    height: auto;
+  }
+}
+
+/* Large desktop screens and laptops (1680px and above) */
+@media (min-width: 1680px) {
+  .hero-img-container img {
+    width: 5%;
+    height: auto;
+  }
+}
+;
