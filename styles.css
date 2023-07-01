@@ -2,6 +2,7 @@ body {
   min-width: 375px;
   background-color: #d7c7a4;
 }
+  
 #nav {
   background-color: #616548 ;
 }
@@ -16,10 +17,8 @@ body {
   height: auto;
 }
 
-
-
 #card {
-  background-color: #978763;
+  background-color: #978763a0;
   color: white;
   font-family: Avenir;
   text-transform: uppercase;
@@ -36,7 +35,8 @@ h5 {
   color: rgb(66, 53, 4)
 }
 #pill {
-  background-color: #a89d3699;
+  background-color: #a89d3692;
+  border-radius: 5%
 }
 .happy-cows {
   color: #e23130;
@@ -60,7 +60,7 @@ h5 {
   border-right: 1px solid #dee2e6;
 }
 .table-leather {
-  background-color: #616548;
+  background-color: #616548af;
   color: #fff;
 }
 a {
