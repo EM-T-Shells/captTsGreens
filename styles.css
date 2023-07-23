@@ -46,7 +46,7 @@ h5 {
   letter-spacing:  1px;
 }
 .discount {
-  color: rgb(172, 244, 56);
+  color: rgb(56, 137, 5);
 }
 .table-responsive {
   margin: auto;
@@ -102,7 +102,7 @@ a {
 /* Tablet devices (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero-img-container img {
-    width: 55%;
+    width: 60%;
     height: auto;
   }
 }
@@ -110,7 +110,7 @@ a {
 /* Small desktop screens (1200px to 1439px) */
 @media (min-width: 1200px) and (max-width: 1439px) {
   .hero-img-container img {
-    width: 45%;
+    width: 55%;
     height: auto;
   }
 }
@@ -118,7 +118,7 @@ a {
 /* Medium-sized desktop screens (1440px to 1679px) */
 @media (min-width: 1440px) and (max-width: 1679px) {
   .hero-img-container img {
-    width: 35%;
+    width: 55%;
     height: auto;
   }
 }
@@ -126,7 +126,7 @@ a {
 /* Large desktop screens and laptops (1680px and above) */
 @media (min-width: 1680px) {
   .hero-img-container img {
-    width: 5%;
+    width: 55%;
     height: auto;
   }
 }
